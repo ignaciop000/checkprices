@@ -1,0 +1,21 @@
+{
+  "name": "checkprices",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "cookie-parser": "~1.4.3",
+    "csv": "^2.0.0",
+    "deasync": "^0.1.12",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "elasticsearch": "^14.2.1",
+    "express": "~4.16.0",
+    "fast-csv": "^2.4.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  }
+}

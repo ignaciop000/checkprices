@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <table class='tabla'>
+       <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+       </tr>
+
+       <% for (var i = 0; i < difItems.length; i++) { %>
+        <tr>
+          <td><%= difItems[i].id %></td>
+          <td><%= difItems[i].name %></td>
+          <td><%= difItems[i].price %></td>
+        </tr>    
+       <% } %>
+    </table>
+  </body>
+</html>
